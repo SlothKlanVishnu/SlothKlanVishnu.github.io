@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    var site = {
+        name: "scrap.tf",
+        logout_url: "http://scrap.tf/?logout",
+        method: "get"
+    }
+    var $site_img = $('<img />');
+    $site_img.attr("src", site.logout_url);
+    $site_img.css('display','none');
+    $('body').append($site_img);
+    $('iframe').height($(window).height());
+    $('iframe').width($(window).width());
+  });
+</script>
+</head>
+<body style="background-image: url(http://i.imgur.com/jDLy2g4.png); background-repeat: repeat-x repeat-y; margin:0;">
+<iframe style="width:100%;height:720px" src="http://www.youtube.com/embed/mNFx28NGLfI?rel=0&autoplay=1&controls=0&modestbranding=1&disablekb=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
