@@ -1,59 +1,68 @@
-body{
-		background: #2c3e50;
-		
-	}
-	h1{
-		color: #2c3e50;
-		font-family: "Segoe UI Light", "Century Gothic", sans-serif;
-	}
-	a{
-		text-decoration: none;
-		color: #2c3e50;
-	}
-	a:hover{
-		text-decoration: underline;
-	}
-	#credits{
-		font-size: 15pt;
-	}
-	#header{
-		position:absolute;
-	    top: 40%;
-	    left: 50%;
-	    margin-top: -9em; 
-	    margin-left: -5em;
-		text-align: center;
-		font-size: 25pt;
-		font-family: "Segoe UI Light", "Century Gothic", sans-serif;
-		color: white;
-	}
-	#ramme, h2{
-		font-size: 13px;
-		color: #2c3e50;
-		font-family: "Century Gothic", sans-serif;
-		font-style: italic; 
-	}
-	#ramme{
-		position:absolute;
-	    width: 500px;
-		background:white;
-		margin-left: -9em;
-		border-radius: 10px;
-		text-align: center;
-	}
-	hr{
-		display: block;
-		height: 1px;
-	    border: 0;
-	    border-top: 1px solid #2c3e50;
-	    margin: 1em 0;
-	    padding: 0;
-	}
-	#secret a{
-		color: white;
-	}
-	#secretsmall{
-		font-size: 10px;
-		font-family: "Century Gothic", "Verdana", sans-serif;
-		color: white;
-	}
+body {
+    background:#2c3e50
+}
+
+h1 {
+    color:#2c3e50;
+    font-family:"Segoe UI Light","Century Gothic",sans-serif
+}
+
+a {
+    text-decoration:none;
+    color:#2c3e50
+}
+
+a:hover {
+    text-decoration:underline
+}
+
+#credits {
+    font-size:15pt
+}
+
+#header {
+    position:absolute;
+    top:40%;
+    left:50%;
+    margin-top:-9em;
+    margin-left:-5em;
+    text-align:center;
+    font-size:25pt;
+    font-family:"Segoe UI Light","Century Gothic",sans-serif;
+    color:#fff
+}
+
+#ramme,h2 {
+    font-size:13px;
+    color:#2c3e50;
+    font-family:"Century Gothic",sans-serif;
+    font-style:italic
+}
+
+#ramme {
+    position:absolute;
+    width:500px;
+    background:#fff;
+    margin-left:-9em;
+    border-radius:10px;
+    text-align:center
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #2c3e50;
+    margin:1em 0;
+    padding:0
+}
+
+#secret a {
+    color:#fff
+}
+
+#secretsmall {
+    font-size:10px;
+    font-family:"Century Gothic","Verdana",sans-serif;
+    color:#fff
+}
