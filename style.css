@@ -6,7 +6,10 @@ h1 {
     color:#2c3e50;
     font-family:"Segoe UI Light","Century Gothic",sans-serif
 }
-
+#ignoreastyle a{
+    color:white;
+    text-decoration: none;
+}
 a {
     text-decoration:none;
     color:#2c3e50
